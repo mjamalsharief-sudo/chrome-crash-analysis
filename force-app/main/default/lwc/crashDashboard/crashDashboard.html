@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Recent Chrome Crash Incidents" icon-name="standard:logging">
+        <div class="slds-m-around_medium">
+            <lightning-datatable
+                key-field="Id"
+                data={crashData}
+                columns={columns}
+                hide-checkbox-column="true">
+            </lightning-datatable>
+        </div>
+    </lightning-card>
+</template>

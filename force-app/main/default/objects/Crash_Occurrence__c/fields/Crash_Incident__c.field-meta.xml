@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Crash_Incident__c</fullName>
+    <label>Crash Incident</label>
+    <type>Lookup</type>
+    <referenceTo>Crash_Incident__c</referenceTo>
+    <relationshipName>Occurrences</relationshipName>
+    <relationshipLabel>Occurrences</relationshipLabel>
+    <required>false</required>
+</CustomField>
