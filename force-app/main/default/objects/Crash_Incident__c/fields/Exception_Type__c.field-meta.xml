@@ -2,21 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Exception_Type__c</fullName>
     <label>Exception Type</label>
-    <type>Picklist</type>
-    <picklist>
-        <picklistValues>
-            <fullName>EXC_BREAKPOINT (SIGTRAP)</fullName>
-            <default>false</default>
-        </picklistValues>
-        <picklistValues>
-            <fullName>EXC_BAD_ACCESS (SIGSEGV)</fullName>
-            <default>false</default>
-        </picklistValues>
-        <picklistValues>
-            <fullName>EXC_CRASH (SIGABRT)</fullName>
-            <default>false</default>
-        </picklistValues>
-        <sorted>false</sorted>
-    </picklist>
+    <type>Text</type>
+    <length>255</length>
     <required>false</required>
 </CustomField>

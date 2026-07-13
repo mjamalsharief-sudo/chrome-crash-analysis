@@ -8,5 +8,4 @@
     <unique>true</unique>
     <externalId>true</externalId>
     <caseSensitive>true</caseSensitive>
-    <index>true</index>
 </CustomField>

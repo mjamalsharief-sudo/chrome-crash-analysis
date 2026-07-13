@@ -8,5 +8,5 @@
         <displayFormat>OCC-{000000}</displayFormat>
     </nameField>
     <deploymentStatus>Deployed</deploymentStatus>
-    <sharingModel>ControlledByParent</sharingModel>
+    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
